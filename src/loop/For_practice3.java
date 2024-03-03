@@ -1,19 +1,20 @@
 package loop;
 
 /*
- 1 2 3
- 4 5 6
- 7 8 9
+ 1 4 7
+ 2 5 8
+ 3 6 9
  */
-public class For_practice1 {
+public class For_practice3 {
 	public static void main(String[] args) {
-		int su = 0;
+		int su = -2;
 
 		for (int i = 1; i <= 3; i++) {
 			for (int j = 1; j <= 3; j++) {
-				su++;
+				su += 3;
 				System.out.print(su + " ");
 			}
+			su -= 8;
 			System.out.println();
 		}
 	}
